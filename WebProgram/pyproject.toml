@@ -1,0 +1,10 @@
+[project]
+name = "webprogram"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=2.3.3",
+    "reflex>=0.8.16",
+]

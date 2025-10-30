@@ -1,13 +1,54 @@
+# Data directories
 Downloader/data/
 Summarizer/data/
 Tokenizer/data/
+WebProgram/WebProgram/res/rank/*.csv
+WebProgram/WebProgram/res/summary/*.sum
 
+# Python cache
 __pycache__/
 *.py[oc]
+*.pyo
+*.pyd
+.Python
+
+# Build directories
 build/
 dist/
 wheels/
 *.egg-info
+*.egg
 
 # Virtual environments
 .venv
+venv/
+ENV/
+env/
+
+# Reflex specific
+WebProgram/.web/
+WebProgram/assets/external/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.local

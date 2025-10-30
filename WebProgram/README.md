@@ -14,6 +14,11 @@ python -m venv .venv
 
 # 의존성 설치
 pip install -r requirements.txt
+# pip install -r ./requirements.txt #Linux/Mac
+
+#unzip 설치
+sudo apt install
+sudo apt install unzip
 
 # Reflex 초기화
 reflex init
@@ -22,9 +27,12 @@ reflex init
 ## 실행
 
 ```bash
-# 가상환경 활성화
+# 가상환경 활성화 - 안했을시
 .venv\Scripts\activate  # Windows
 # source .venv/bin/activate  # Linux/Mac
+
+#allowed Host 설정
+#WebProgram/web/vite.config.js 파일 내 73번째 라인 'hmr: true,' 다음에 allowedHosts : ['본인아이디.web.ajousw.kr'],를 추가해준다.
 
 # 기본 포트로 실행 (3000/8000)
 reflex run
